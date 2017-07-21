@@ -1,0 +1,126 @@
+/* background done with inspiration from http://lea.verou.me/css3patterns/
+*/
+body {
+  background-color: #ffffcc;
+  background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+linear-gradient(#eee .1em, transparent .1em);
+background-size: 100% 2.2em;
+font-family: 'Shadows Into Light', cursive;
+}
+.menuen {
+  position:fixed;
+  right: 10px;
+  background-color: #ffffcc;
+  z-index: +2;
+  text-decoration:underline;
+  color: rgb(33, 153, 232);
+}
+.roter90 {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+h1, h2, h3, h4 {
+font-family: 'Shadows Into Light', cursive;
+}
+p {
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+.kontakt.a {
+  text-decoration: none;
+  color: black;
+}
+a:link, a:visited {
+   text-decoration: none;
+   color: rgb(33, 153, 232);
+}
+.fa {
+  color: rgb(33, 153, 232);
+  cursor: pointer; cursor: hand;
+}
+.pin {
+  position:relative;
+  height: 20px;
+  width: 20px;
+  left:295px;
+  top: 20px;
+  z-index: +1;
+}
+.tape {
+  position:relative;
+  left:59px;
+  top: 55px;
+  z-index: +1;
+}
+.polaroid {
+  position: relative;
+  width: 350px;
+}
+.polaroid:hover {
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+.polaroid img {
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+
+
+.polaroid figcaption {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 10px;
+  font-family: 'Shadows Into Light', cursive;
+  color: #888;
+}
+
+img.roter90 {
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.animated {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+/*
+i:hover {
+  color: #ADD8E6;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+}
+*/
+.starwars {
+  background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  color: yellow;
+}
